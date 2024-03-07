@@ -55,3 +55,7 @@ resource "aws_subnet" "private_subnet_2" {
     Name = "hangramit_private_subnet_2"
   }
 }
+
+data "aws_subnet" "private_subnet_1" {
+  id = "subnet-0b24bd0acd8199fb5"
+}
